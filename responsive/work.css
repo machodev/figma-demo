@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Heebo:wght@400;500;600;700;800;900&family=Inter:wght@500;700;900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,700&display=swap");
+.container {
+  max-width: 681px;
+  margin: 0 auto;
+}
+ul li span {
+  color: red;
+}
+.navbar-home a {
+  text-decoration: none;
+  width: 57px;
+  height: 43px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #000;
+  text-align: right;
+  font-family: Heebo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.navbar-home ul {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+}
+.navbar-home ul li {
+  margin: 27px 60px 0px 0px;
+}
+.container {
+  max-width: 858px;
+  margin: 0 auto;
+}
+
+.future-item p {
+  width: 594px;
+  height: 93px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: var(--dark-color, #21243d);
+  font-family: Heebo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 12px;
+}
+.future-item {
+  display: flex;
+  gap: 18px;
+}
+.future-item img {
+  width: 250px;
+  height: 220px;
+}
+hr {
+  margin-bottom: 31px;
+  margin-top: 32px;
+  background-color: #e0e0e0;
+}
+
+.header-top a {
+  text-decoration: none;
+  width: 106px;
+  height: 43px;
+  color: #000;
+  text-align: right;
+  font-family: Heebo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.header-top li {
+  margin: 27px 60px 0px 0px;
+}
+.header-top ul {
+  display: flex;
+  justify-content: end;
+  list-style: none;
+}
+.import {
+  display: flex;
+}
+.import {
+  padding-left: 600px;
+}
+footer {
+  width: 100%;
+  height: 182px;
+}
+footer p {
+  color: var(--dark, #21243d);
+  text-align: center;
+  font-family: Heebo;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.date2 {
+  padding-left: 26px;
+  width: 374px;
+  height: 34px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: var(--light, #8695a4);
+  font-family: Heebo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.date {
+  padding: 0 10px;
+  color: #fff;
+  font-family: Heebo;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 60px;
+  color: white;
+  width: 62px;
+  height: 25px;
+  font-size: 20px;
+  border-radius: 26px;
+  background: #142850;
+}
+@media only screen and (max-width: 600px){
+    .header-top ul{
+        display: none;
+    }
+
+}
